@@ -10,7 +10,7 @@ import { WeatherData } from './models/weather.module';
 export class AppComponent implements OnInit {
   constructor(private weatherService: WeatherService) {}
 
-  cityName: string = 'Warsaw';
+  cityName: string = 'London,UK';
   weatherData?: WeatherData;
 
   ngOnInit(): void {

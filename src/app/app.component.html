@@ -10,7 +10,7 @@
     <img src="../assets/cold.png" *ngIf="weatherData.main.temp <= 15" alt="">
     <div class="weather-data">
       <div class="location">{{weatherData.name}}</div>
-      <div class="temperature">{{((weatherData.main.temp - 32) / 1.8) | number: '1.0-0'}}°C</div>
+      <div class="temperature">{{(weatherData.main.temp - 272.15) | number: '1.0-0'}}°C</div>
     </div>
   </div>
   <div class="lower-data">
@@ -24,7 +24,7 @@
           <span>min</span>
         </div>
         <div class="info-block-value">
-          {{((weatherData.main.temp_min - 32) / 1.8) | number: '1.0-0'}}°C
+          {{(weatherData.main.temp_min - 272.15) | number: '1.0-0'}}°C
         </div>
       </div>
       <div class="info-block">
@@ -33,7 +33,7 @@
           <span>max</span>
         </div>
         <div class="info-block-value">
-          {{((weatherData.main.temp_max - 32) / 1.8) | number: '1.0-0'}}°C
+          {{(weatherData.main.temp_max - 272.15) | number: '1.0-0'}}°C
         </div>
       </div>
       <div class="info-block">
