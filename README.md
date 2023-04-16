@@ -10,4 +10,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Screenshot
 
-![WeatherApp](.\weatherApp_ss.jpg?raw=true 'Weather Application')
+<img src=".\assets\weatherApp_ss.jpg" alt="Screenshot-Weather-Application">
